@@ -42,14 +42,11 @@ class LearningAgent(Agent):
         # Update additional class parameters as needed
         # If 'testing' is True, set epsilon and alpha to 0
         
-        # self.trial += 1
-        
         if testing:
             self.epsilon, self.alpha = 0, 0
         else:
-            if self.trial > 1:
-                # self.epsilon += -0.05
-                self.epsilon = math.cos(math.radians(0.6 * self.trial))
+            # self.epsilon += -0.05 # used for basic learning agent
+            self.epsilon = math.cos(math.radians(0.6 * self.trial))
 
         self.trial += 1
 
