@@ -15,4 +15,4 @@ The project brief asked the student to apply reinforcement learning techniques f
 - `smartcab.ipynb`: completed submission file (Jupyter Notebook)
 - `visuals.py`: supporting code (provided by Udacity)
 
-More information on the project can be found [here](https://github.com/udacity/machine-learning/blob/master/projects/smartcab/project_description.md)
+More information on the project can be found [here](https://github.com/udacity/machine-learning/blob/master/projects/smartcab/project_description.md).
