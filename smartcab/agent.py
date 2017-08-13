@@ -104,9 +104,6 @@ class LearningAgent(Agent):
         if self.learning:
             if state not in self.Q:
                 self.Q[state] = {action: 0.0 for action in self.valid_actions}
-                # self.Q[state] = dict()
-                # for action in self.valid_actions:
-                    # self.Q[state][action] = 0.0
         return
 
 
